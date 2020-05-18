@@ -36,19 +36,38 @@ const config = {
 
 ## 部署
 
-1️⃣ 下载`${app}/lean-cloud/index.js`
+1️⃣ 克隆项目
 
-
+```bash
+git clone https://github.com/SunSeekerX/node-script.git
+```
 
 2️⃣ 服务器安装`nodejs`和`pm2`
 
+网上找教程
 
+3️⃣ 安装依赖
 
-3️⃣ 文档放到某个地方
+切到`node-script`根目录下
 
 ```bash
-# 某个地方执行
+yarn
+
+# or npm
+npm i
+```
+
+4️⃣进入 `node-script/lean-cloud/`
+
+```bash
+# 执行
 pm2 start index.js --name leanCloud-wakeUp
+# 查看列表
+pm2 list
+# 参看日志
+pm2 log
+# 监控
+pm2 monit
 ```
 
 
