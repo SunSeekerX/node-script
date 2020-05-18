@@ -42,9 +42,13 @@ const config = {
 git clone https://github.com/SunSeekerX/node-script.git
 ```
 
+
+
 2️⃣ 服务器安装`nodejs`和`pm2`
 
 网上找教程
+
+
 
 3️⃣ 安装依赖
 
@@ -57,7 +61,15 @@ yarn
 npm i
 ```
 
-4️⃣进入 `node-script/lean-cloud/`
+
+
+4️⃣ 修改配置
+
+配置文件就在 `node-script/lean-cloud/index.js`
+
+
+
+5️⃣ 进入 `node-script/lean-cloud/`
 
 ```bash
 # 执行
