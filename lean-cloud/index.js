@@ -3,7 +3,7 @@
  * @author: SunSeekerX
  * @Date: 2020-05-18 16:45:37
  * @LastEditors: SunSeekerX
- * @LastEditTime: 2020-05-20 18:47:01
+ * @LastEditTime: 2020-05-20 18:47:27
  */
 
 const axios = require('axios')
@@ -43,7 +43,7 @@ const config = {
  * @name 定时任务
  * @description Every 25 minutes, between 07:00 AM and 11:59 PM
  */
-schedule.scheduleJob('0 */25 7-23 * *', () => {
+schedule.scheduleJob('0 */25 7-23 * * *', () => {
   // 干活~
   doWork()
 })
