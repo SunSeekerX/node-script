@@ -3,7 +3,7 @@
  * @author: SunSeekerX
  * @Date: 2020-05-18 16:45:37
  * @LastEditors: SunSeekerX
- * @LastEditTime: 2020-05-18 19:18:18
+ * @LastEditTime: 2020-05-20 18:47:01
  */
 
 const axios = require('axios')
@@ -103,7 +103,7 @@ async function doWork() {
       if (!item.success) {
         resultStr += `${item.error}\n`
       }
-      resultStr += `-------------------------\n`
+      resultStr += `-------------\n`
     }
     if (config.isOpenQmsg) {
       qmsg(resultStr)
